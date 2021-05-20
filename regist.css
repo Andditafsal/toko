@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background: #272727;
+    min-height: 100vh;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form {
+    width: 350px;
+    background: rgb(243, 193, 193);
+    height: 610px;
+    margin: auto;
+    border-radius: 30px;
+    padding: 20px;
+    font-family: ubuntu;
+    margin-bottom: 1px;
+
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px  ;
+}
+
+input,
+input {
+    height: 40px;
+    width: 200px;
+    border: 1px solid #ccc;
+    background: rgb(218, 150, 150);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background: #e2e1e1;
+
+}
+input:focus{
+    outline: 0;
+    border: 1px solid #aaa;
+}
+input:hover,
+input:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+.form-group {
+    margin: 10px 25px;
+}
+::-webkit-input-placeholder {
+    color: rgb(39, 38, 38);
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+
+ button {
+    cursor: pointer;
+    width: 50%;
+    border: none;
+    background: rgb(124, 41, 77);
+    color: #FFF;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-left: 65px;
+    
+}
+
+
+ button:hover {
+    background: rgb(182, 113, 137);
+    background:;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+ button:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+button>a{
+    text-decoration: none;
+    color: white;
+}
